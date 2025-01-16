@@ -1,10 +1,6 @@
 # Project Template (R)
 
-This git repository is a template that should be used as the default structure for new projects.  
-It won't fit all circumstances perfectly, and you can adapt it to your needs and make a pull request if
-you want to suggest changes to the template.
-
-If the repo doesn't require a model_card.md or completed open_code_checklist.md then delete these.
+This git repository is a template that should be used as the default structure for new projects. It was adapted from [NHSE template](https://github.com/nhsengland/nhse-repository-template/tree/main) and [BSOL template](https://github.com/Birmingham-and-Solihull-ICS/BSOLproject) . It won't fit all circumstances perfectly, and you can adapt it to your needs and make a pull request if you want to suggest changes to the template.
 
 The aim of this template is two-fold: firstly to give a common structure for analytical projects to aid
 reproducibility, secondly to allow for additional security settings as default to prevent accidental upload of files that should not be committed to Git and GitHub.
