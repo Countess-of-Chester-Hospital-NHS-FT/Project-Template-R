@@ -20,3 +20,7 @@
 *.csv
 *.pdf
 *.svg
+
+# Exclude output file types
+*.html
+*.ipynb
