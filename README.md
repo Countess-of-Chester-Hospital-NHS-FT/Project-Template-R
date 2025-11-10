@@ -27,6 +27,8 @@ __Please update/replace this README file with one relevant to your project__
 ### Status
 This project is currently work in progress / completed / being maintained / not being maintained
 
+Unless otherwise specified the CODEOWNER has responsibility for maintaining the code and addressing any security concerns.
+
 ### About the project
 Short description and purpose / objectives of the project
 
@@ -46,7 +48,7 @@ List of R / python versions and packages or if these are captured in a requireme
 If not already described.
 
 ### Contributing
-Contributions and identification of issues are welcomed.
+Contributions and identification of issues are welcomed. Please raise any security concerns as an issue.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/Feature`)
