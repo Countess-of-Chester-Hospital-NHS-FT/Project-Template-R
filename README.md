@@ -7,16 +7,18 @@ reproducibility, secondly to allow for additional security settings as default t
 
 ## To use this template, please use the following practises:
 
-* Put any data files in the `data` folder.  This folder is explicitly named in the .gitignore file.  A further layer of security is that all xls, xlsx, csv and pdf files are also explicit ignored in the whole folder as well.  ___If you need to commit one of these files, you must use the `-f` (force) command in `commit`, or specify the file as an exception in the .gitignore but you must be sure there is no identifiable data.__
+* Put any data files (if using) in the `data` folder.  This folder is explicitly named in the .gitignore file.  A further layer of security is that all xls, xlsx, csv and pdf files are also explicit ignored in the whole folder as well.  ___If you need to commit one of these files, you must use the `-f` (force) command in `commit`, or specify the file as an exception in the .gitignore but you must be sure there is no identifiable data.__
 * Adapt the .gitignore to suit your needs - it will not necessarily cover everything you need.
-* Save any documentation in the `docs` file.  This does not mean you should avoid commenting your code, but if you have an operating procedure or supporting documents, add them to this folder. If any documentation contains sensitive information that shouldn't be pushed, make sure you add the document to the .gitignore file.
-* Please save all output: data, formatted tables, graphs etc. in the output folder.  This is also implicitly ignored by git, but you can use the `-f` (force) command in `commit` to add any you wish to publish to github.
+* Save any documentation or outputs (data tables, visulaisations, presentations, models, documents) which need backing up to a folder on the shared drive (put the folder location in the README). These may often contain sensitive info and saving them to the shared drive means they are backed up, but not pushed to github.
 * Change the codeowners file (in .github folder) so you are the codeowner.
+* Add a branch protection rule for your main branch and watch the repo so you are made aware of any changes.
 
 ### Please also consider the following:
 * Linting your code.  This is a formatting process that follows a rule set.  We broadly encourage the tidyverse standard, and recommend the `lintr` package.
 * Comment your code to make sure others can follow.
 * Consider your naming conventions: we recommend `snake case` where spaces are replaced by underscores and no capitals are use. E.g. `outpatient_referral_data`
+* Use the open code checklist to remind yourself of what is appropriate for pushing to GitHub
+* If your project is a model, use the model card (based on google documentation), if project is not a model you can delete the model card.
 
 __Please update/replace this README file with one relevant to your project__
 
