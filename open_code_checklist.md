@@ -8,7 +8,7 @@ Please use this checklist to document adherence to best practice for published p
 
 - [ ] Does your code have an appropriate licence and copyright notice?
 - [ ] Is there a clear and concise README and does it document intended purpose?
-- [ ] Do you need to consider MHRA 'software as a medical device' regulation? (use [flowchart](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/999908/Software_flow_chart_Ed_1-08b-IVD.pdf))
+- [ ] Could the output of this project be considered a medical device according to MHRA 'software as a medical device' regulation? (use [flowchart](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/999908/Software_flow_chart_Ed_1-08b-IVD.pdf))
 - [ ] Are package dependencies and libaries documented with versions?
 
 ### You do not release information that should remain closed (in either source code, commits, discussions, outputs or documentation, now or at any time in the git history)
