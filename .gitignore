@@ -20,6 +20,8 @@
 *.csv
 *.pdf
 *.svg
+*.rds
+*.RDS
 
 # Exclude output file types
 *.html
